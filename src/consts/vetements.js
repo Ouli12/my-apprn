@@ -21,7 +21,7 @@ const vetements = [
       id: '4',
       name: 'robe de soirée',
       price: '19.55',
-      image: require('../assets/robedesoiree.png'),
+      image: require('../assets/robedesoiree.jpg'),
     },
   ];
   

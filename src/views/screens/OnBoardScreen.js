@@ -2,7 +2,7 @@ import React from 'react';
 import {Text, StyleSheet, View, Image} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import COLORS from '../../consts/colors';
-// import {PrimaryButton} from '../components/Button';
+import {PrimaryButton} from '../components/Button';
 
 const OnBoardScreen = ({navigation}) => {
   return (
@@ -12,7 +12,7 @@ const OnBoardScreen = ({navigation}) => {
           style={{
             width: '100%',
             resizeMode: 'contain',
-            top: -150,
+            top: -10,
           }}
           source={require('../../assets/onboardImage.jpg')}
         />
@@ -20,7 +20,7 @@ const OnBoardScreen = ({navigation}) => {
       <View style={style.textContainer}>
         <View>
           <Text style={{fontSize: 32, fontWeight: 'bold', textAlign: 'center'}}>
-            Delicious Food
+            Shopper des looks d'enfer
           </Text>
           <Text
             style={{
@@ -29,7 +29,7 @@ const OnBoardScreen = ({navigation}) => {
               textAlign: 'center',
               color: COLORS.grey,
             }}>
-            We help you to find best and delicious food
+            We help you to find best clothes
           </Text>
         </View>
         <View style={style.indicatorContainer}>
